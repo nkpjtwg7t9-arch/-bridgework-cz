@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101214">
+<meta name="description" content="Nábor pracovníků na stavbu mostů v Praze – BRIDGE WORK CZ.">
+<title>BRIDGE WORK CZ | Práce na stavbě mostů v Praze</title>
+<style>
+:root{--bg:#101214;--panel:#1b2024;--yellow:#ffd21a;--white:#f7f7f5;--muted:#c7cbd0;--green:#15945c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55}
+a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}.top{position:sticky;top:0;z-index:10;background:#101214f2;border-bottom:1px solid #ffffff20;backdrop-filter:blur(12px)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0}.brand{font-weight:900;letter-spacing:.03em;font-size:clamp(18px,4vw,25px)}.brand span{color:var(--yellow)}.langs{display:flex;gap:6px;flex-wrap:wrap}.langs button,.menu{border:1px solid #ffffff30;background:#242a2f;color:white;border-radius:9px;padding:8px 10px;font-weight:700;cursor:pointer}.langs button.active{background:var(--yellow);color:#111}.hero{position:relative;min-height:540px;display:flex;align-items:center;overflow:hidden;background:linear-gradient(90deg,#080a0de8 0%,#080a0db8 48%,#080a0d22 100%),url('assets/bridge-hero.png') center/cover no-repeat}
+.hero-content{padding:70px 0;max-width:650px}.eyebrow{color:var(--yellow);font-weight:800;text-transform:uppercase;letter-spacing:.12em}.hero h1{font-size:clamp(38px,7vw,72px);line-height:.98;margin:12px 0}.hero h1 span{color:var(--yellow)}.hero p{font-size:clamp(17px,2.4vw,21px);color:#e2e5e8;max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;text-decoration:none;border-radius:12px;padding:14px 20px;font-weight:900}.btn-yellow{background:var(--yellow);color:#101214}.btn-outline{border:1px solid #ffffff80;background:#111a;color:white}.facts{background:#171b1e;border-top:3px solid var(--yellow);border-bottom:1px solid #ffffff20}.factgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}.fact{padding:20px 12px;text-align:center;border-right:1px solid #ffffff20}.fact:last-child{border:0}.fact b{display:block;color:var(--yellow);font-size:clamp(18px,3vw,24px)}.fact small{color:var(--muted)}
+section{padding:58px 0}.section-title{font-size:clamp(27px,4vw,40px);margin:0 0 22px}.section-title:before{content:"";display:inline-block;width:7px;height:30px;background:var(--yellow);margin-right:12px;vertical-align:-4px}.aboutgrid,.gallery{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:center}.aboutbox,.card{background:var(--panel);border:1px solid #ffffff20;border-radius:18px;padding:24px}.aboutbox p{color:var(--muted)}.aboutphoto{width:100%;height:300px;object-fit:cover;border-radius:18px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card h3{margin:0 0 10px;color:var(--yellow)}.card p,.card li{color:var(--muted)}ul{padding-left:20px}.gallery img{width:100%;height:240px;object-fit:cover;border-radius:15px;border:1px solid #ffffff25}.gallery figure{margin:0}.gallery figcaption{font-weight:800;margin-top:8px}.notice{margin-top:22px;padding:22px;border:1px solid #ffffff30;border-left:6px solid var(--yellow);border-radius:15px;background:#20262a;font-weight:800;font-size:clamp(17px,2.5vw,22px)}.notice span{color:var(--yellow)}.contact{background:linear-gradient(135deg,#1d2428,#111416);border-top:1px solid #ffffff20}.contactbox{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.contactbox p{color:var(--muted)}footer{padding:25px 0;color:#aeb4b9;text-align:center;font-size:13px;border-top:1px solid #ffffff20}
+@media(max-width:700px){.nav{align-items:flex-start;flex-direction:column}.hero{min-height:570px;background-position:58% center}.hero-content{padding:54px 0}.factgrid{grid-template-columns:repeat(2,1fr)}.fact:nth-child(2){border-right:0}.fact:nth-child(-n+2){border-bottom:1px solid #ffffff20}.aboutgrid,.gallery,.cards{grid-template-columns:1fr}.aboutphoto{height:220px}.gallery img{height:220px}section{padding:42px 0}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap nav">
+  <div class="brand">BRIDGE <span>WORK CZ</span></div>
+  <div class="langs" aria-label="Language">
+    <button class="active" data-lang="cs">🇨🇿 Česky</button><button data-lang="uk">🇺🇦 Українська</button><button data-lang="ru">🇷🇺 Русский</button>
+  </div>
+</div></header>
+<main>
+<section class="hero"><div class="wrap"><div class="hero-content">
+  <div class="eyebrow" data-i18n="eyebrow">Nábor pracovníků • Praha</div>
+  <h1 data-i18n="headline">HLEDÁME <span>NOVÉ PRACOVNÍKY!</span></h1>
+  <p data-i18n="intro">Práce na výstavbě mostů v Praze, lokalita Smíchov. Hledáme spolehlivé pracovníky do stavebního týmu.</p>
+  <div class="actions"><a class="btn btn-yellow" href="#conditions" data-i18n="details">Zobrazit podmínky ↓</a><a class="btn btn-outline" href="https://t.me/Yuri_Voloshchuk" target="_blank" rel="noopener">Telegram ↗</a></div>
+</div></div></section>
+<div class="facts"><div class="wrap factgrid">
+  <div class="fact"><b data-i18n="location">Praha – Smíchov</b><small data-i18n="official">Oficiální zaměstnání</small></div>
+  <div class="fact"><b>220 Kč / hod</b><small data-i18n="from">od / za hodinu</small></div>
+  <div class="fact"><b>7:00–18:00</b><small data-i18n="shift">Směna</small></div>
+  <div class="fact"><b data-i18n="direct">Přímý zaměstnavatel</b><small data-i18n="stable">Stabilní spolupráce</small></div>
+</div></div>
+<section><div class="wrap aboutgrid">
+  <div class="aboutbox"><h2 class="section-title" data-i18n="aboutTitle">O nabídce práce</h2><p data-i18n="aboutText">Nabízíme práci na stavebních projektech v Praze, v oblasti Smíchova. Hledáme pracovníky různých stavebních profesí i pomocné pracovníky. Konkrétní pracovní náplň bude upřesněna při domluvě.</p></div>
+  <img class="aboutphoto" src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=85" alt="Staveniště a stavební práce">
+</div></section>
+<section id="conditions"><div class="wrap">
+  <h2 class="section-title" data-i18n="conditionsTitle">Pracovní podmínky</h2>
+  <div class="cards">
+    <article class="card"><h3 data-i18n="payTitle">Mzda</h3><p><strong style="font-size:28px;color:white">od 220 Kč/hod</strong></p><p data-i18n="payText">Přesná sazba a způsob výplaty budou potvrzeny před nástupem.</p></article>
+    <article class="card"><h3 data-i18n="timeTitle">Pracovní doba</h3><p><strong style="font-size:28px;color:white">7:00–18:00</strong></p><p data-i18n="timeText">Konkrétní rozvrh směn a přestávky se domlouvají podle projektu.</p></article>
+    <article class="card"><h3 data-i18n="placeTitle">Místo práce</h3><p><strong style="font-size:24px;color:white">Praha – Smíchov</strong></p><p data-i18n="placeText">Práce na stavebních projektech v uvedené lokalitě.</p></article>
+  </div>
+  <div class="notice" data-i18n="promise">Jsme přímý zaměstnavatel. Výplatu vyplácíme včas a předem vysvětlujeme všechny podmínky. <span>Žádné skryté srážky.</span></div>
+</div></section>
+<section><div class="wrap">
+  <h2 class="section-title" data-i18n="galleryTitle">Fotografie z výstavby</h2>
+  <div class="gallery">
+    <figure><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=85" alt="Stavební práce na projektu"><figcaption data-i18n="photo1">Stavební práce a příprava staveniště</figcaption></figure>
+    <figure><img src="https://images.unsplash.com/photo-1517089596392-fb9a9033e05b?auto=format&fit=crop&w=1200&q=85" alt="Práce s betonem na stavbě"><figcaption data-i18n="photo5">Betonářské práce</figcaption></figure>
+  </div>
+  <p style="color:#aeb4b9;font-size:13px" data-i18n="photoNote">Fotografie jsou ilustrační a nemusí zachycovat konkrétní pracoviště v Praze.</p>
+</div></section>
+<section><div class="wrap">
+  <h2 class="section-title" data-i18n="requirementsTitle">Požadavky na uchazeče</h2>
+  <div class="cards">
+    <article class="card"><h3 data-i18n="docsTitle">Doklady</h3><p data-i18n="docsText">Platný pas nebo občanský průkaz. Oprávnění k práci v ČR podle vaší situace.</p></article>
+    <article class="card"><h3 data-i18n="qualitiesTitle">Co očekáváme</h3><ul><li data-i18n="q1">Pozornost a odpovědnost</li><li data-i18n="q2">Dochvilnost a spolehlivost</li><li data-i18n="q3">Ochotu pracovat v týmu</li></ul></article>
+    <article class="card"><h3 data-i18n="rolesTitle">Koho hledáme</h3><p data-i18n="rolesText">Stavební dělníky, pomocné pracovníky a pracovníky různých stavebních profesí.</p></article>
+  </div>
+</div></section>
+<section class="contact" id="contact"><div class="wrap contactbox">
+  <div><h2 class="section-title" data-i18n="contactTitle">Máte zájem o práci?</h2><p data-i18n="contactText">Napište nám na Telegram nebo zavolejte. Uveďte své jméno, zkušenosti a kdy můžete nastoupit.</p></div>
+  <div class="actions"><a class="btn btn-yellow" href="https://t.me/Yuri_Voloshchuk" target="_blank" rel="noopener">Telegram: @Yuri_Voloshchuk</a><a class="btn btn-outline" href="tel:+420776043001">+420 776 043 001</a></div>
+</div></section>
+</main>
+<footer><div class="wrap">BRIDGE WORK CZ • Praha – Smíchov • <span data-i18n="footer">Informace o podmínkách potvrďte před nástupem.</span></div></footer>
+<script>
+const translations={
+cs:{eyebrow:"Nábor pracovníků • Praha",headline:'HLEDÁME <span>NOVÉ PRACOVNÍKY!</span>',intro:"Práce na výstavbě mostů v Praze, lokalita Smíchov. Hledáme spolehlivé pracovníky do stavebního týmu.",details:"Zobrazit podmínky ↓",location:"Praha – Smíchov",official:"Oficiální zaměstnání",from:"od / za hodinu",shift:"Směna",direct:"Přímý zaměstnavatel",stable:"Stabilní spolupráce",aboutTitle:"O nabídce práce",aboutText:"Nabízíme práci na stavebních projektech v Praze, v oblasti Smíchova. Hledáme pracovníky různých stavebních profesí i pomocné pracovníky. Konkrétní pracovní náplň bude upřesněna při domluvě.",conditionsTitle:"Pracovní podmínky",payTitle:"Mzda",payText:"Přesná sazba a způsob výplaty budou potvrzeny před nástupem.",timeTitle:"Pracovní doba",timeText:"Konkrétní rozvrh směn a přestávky se domlouvají podle projektu.",placeTitle:"Místo práce",placeText:"Práce na stavebních projektech v uvedené lokalitě.",promise:'Jsme přímý zaměstnavatel. Výplatu vyplácíme včas a předem vysvětlujeme všechny podmínky. <span>Žádné skryté srážky.</span>',galleryTitle:"Fotografie z výstavby",photo1:"Stavební práce a příprava staveniště",photo5:"Betonářské práce",photoNote:"Fotografie jsou ilustrační a nemusí zachycovat konkrétní pracoviště v Praze.",requirementsTitle:"Požadavky na uchazeče",docsTitle:"Doklady",docsText:"Platný pas nebo občanský průkaz. Oprávnění k práci v ČR podle vaší situace.",qualitiesTitle:"Co očekáváme",q1:"Pozornost a odpovědnost",q2:"Dochvilnost a spolehlivost",q3:"Ochotu pracovat v týmu",rolesTitle:"Koho hledáme",rolesText:"Stavební dělníky, pomocné pracovníky a pracovníky různých stavebních profesí.",contactTitle:"Máte zájem o práci?",contactText:"Napište nám na Telegram nebo zavolejte. Uveďte své jméno, zkušenosti a kdy můžete nastoupit.",footer:"Informace o podmínkách potvrďte před nástupem."},
+uk:{eyebrow:"Набір працівників • Прага",headline:'ШУКАЄМО <span>НОВИХ ПРАЦІВНИКІВ!</span>',intro:"Робота на будівництві мостів у Празі, район Smíchov. Шукаємо відповідальних працівників до будівельної команди.",details:"Переглянути умови ↓",location:"Прага – Smíchov",official:"Офіційне працевлаштування",from:"від / за годину",shift:"Зміна",direct:"Прямий роботодавець",stable:"Стабільна співпраця",aboutTitle:"Про вакансію",aboutText:"Пропонуємо роботу на будівельних проєктах у Празі, район Smíchov. Шукаємо працівників різних будівельних спеціальностей та підсобних робітників. Конкретні обов’язки узгоджуються під час спілкування.",conditionsTitle:"Умови роботи",payTitle:"Оплата",payText:"Точну ставку та порядок виплати підтверджуємо до початку роботи.",timeTitle:"Графік роботи",timeText:"Графік змін і перерв узгоджується залежно від проєкту.",placeTitle:"Місце роботи",placeText:"Будівельні проєкти у зазначеному районі.",promise:'Ми — прямий роботодавець. Виплачуємо зарплату вчасно та заздалегідь пояснюємо всі умови. <span>Жодних прихованих відрахувань.</span>',galleryTitle:"Фото з будівництва",photo1:"Будівельні роботи та підготовка майданчика",photo5:"Бетонні роботи",photoNote:"Фотографії ілюстративні й можуть не відображати конкретний об’єкт у Празі.",requirementsTitle:"Вимоги до кандидатів",docsTitle:"Документи",docsText:"Дійсний паспорт або посвідчення особи. Право на роботу в Чехії відповідно до вашої ситуації.",qualitiesTitle:"Що очікуємо",q1:"Уважність і відповідальність",q2:"Пунктуальність і надійність",q3:"Готовність працювати в команді",rolesTitle:"Кого шукаємо",rolesText:"Будівельників, підсобних працівників та працівників різних будівельних спеціальностей.",contactTitle:"Цікавить робота?",contactText:"Напишіть у Telegram або зателефонуйте. Вкажіть ім’я, досвід і коли можете приступити до роботи.",footer:"Умови працевлаштування підтвердіть до початку роботи."},
+ru:{eyebrow:"Набор работников • Прага",headline:'ИЩЕМ <span>НОВЫХ СОТРУДНИКОВ!</span>',intro:"Работа на строительстве мостов в Праге, район Smíchov. Ищем ответственных работников в строительную команду.",details:"Посмотреть условия ↓",location:"Прага – Smíchov",official:"Официальное трудоустройство",from:"от / за час",shift:"Смена",direct:"Прямой работодатель",stable:"Стабильное сотрудничество",aboutTitle:"О вакансии",aboutText:"Предлагаем работу на строительных проектах в Праге, район Smíchov. Ищем работников разных строительных специальностей и подсобных рабочих. Конкретные обязанности согласовываются при общении.",conditionsTitle:"Условия работы",payTitle:"Оплата",payText:"Точная ставка и порядок выплаты подтверждаются до выхода на работу.",timeTitle:"График работы",timeText:"График смен и перерывы согласовываются в зависимости от проекта.",placeTitle:"Место работы",placeText:"Строительные проекты в указанном районе.",promise:'Мы — прямой работодатель. Выплачиваем зарплату вовремя и заранее объясняем все условия. <span>Никаких скрытых вычетов.</span>',galleryTitle:"Фото со строительства",photo1:"Строительные работы и подготовка площадки",photo5:"Бетонные работы",photoNote:"Фотографии иллюстративные и могут не показывать конкретный объект в Праге.",requirementsTitle:"Требования к кандидатам",docsTitle:"Документы",docsText:"Действующий паспорт или удостоверение личности. Право на работу в Чехии в соответствии с вашей ситуацией.",qualitiesTitle:"Что ожидаем",q1:"Внимательность и ответственность",q2:"Пунктуальность и надёжность",q3:"Готовность работать в команде",rolesTitle:"Кого ищем",rolesText:"Строителей, подсобных рабочих и работников разных строительных специальностей.",contactTitle:"Интересует работа?",contactText:"Напишите в Telegram или позвоните. Укажите имя, опыт и когда можете приступить к работе.",footer:"Условия трудоустройства подтвердите до начала работы."}
+};
+document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>{const lang=b.dataset.lang;document.querySelectorAll("[data-lang]").forEach(x=>x.classList.toggle("active",x===b));document.documentElement.lang=lang;document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.dataset.i18n;if(translations[lang][k])el.innerHTML=translations[lang][k]})}));
+</script>
+</body></html>
